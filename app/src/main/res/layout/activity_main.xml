@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.defangfang.schoolinfopublishsystem.MainActivity"
+    android:id="@+id/main">
+    <include layout="@layout/find"
+        android:visibility="gone"></include>
+    <include layout="@layout/mine"
+             android:visibility="gone"></include>
+    <include layout="@layout/manage"
+             android:visibility="gone"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlueLight">
+
+        <LinearLayout
+            android:id="@+id/main_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_find_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorGreen"
+                android:background="@android:drawable/ic_menu_search"/>
+
+            <TextView
+                android:textColor="@color/colorGreen"
+                android:id="@+id/main_find_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_mine_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/ic_menu_mylocation"
+                android:backgroundTint="@color/colorGreen"/>
+
+            <TextView
+                android:id="@+id/main_mine_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mine"
+                android:textColor="@color/colorGreen"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_manage_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorGreen"
+                android:background="@android:drawable/ic_menu_preferences"/>
+
+            <TextView
+                android:textColor="@color/colorGreen"
+                android:id="@+id/main_manage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manage"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

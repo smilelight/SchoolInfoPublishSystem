@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>AndroidManifest.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(207,191,173); font-style: italic; }
+.s1 { color: rgb(191,164,164); }
+.s2 { color: rgb(249,250,244); }
+.s3 { color: rgb(236,228,126); }
+.s4 { color: rgb(207,191,173); }
+.s5 { color: rgb(255,0,127); }
+.s6 { color: rgb(138,130,107); }
+</style>
+</head>
+<BODY BGCOLOR="#272822">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+AndroidManifest.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s3">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s3">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s4"> 
+</span><span class="s2">&lt;</span><span class="s5">manifest </span><span class="s1">xmlns:android=</span><span class="s3">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s2"> 
+          </span><span class="s1">package=</span><span class="s3">&quot;com.example.defangfang.schoolinfopublishsystem&quot;</span><span class="s2">&gt;</span><span class="s4"> 
+    </span><span class="s6">&lt;!-- 基础模块（必须加入以下声明）START --&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">uses-permission </span><span class="s1">android:name=</span><span class="s3">&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">uses-permission </span><span class="s1">android:name=</span><span class="s3">&quot;android.permission.INTERNET&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">uses-permission </span><span class="s1">android:name=</span><span class="s3">&quot;android.permission.ACCESS_NETWORK_STATE&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">uses-permission </span><span class="s1">android:name=</span><span class="s3">&quot;android.permission.READ_PHONE_STATE&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">uses-permission </span><span class="s1">android:name=</span><span class="s3">&quot;android.permission.ACCESS_WIFI_STATE&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+ 
+    </span><span class="s6">&lt;!-- 基础模块 END --&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;</span><span class="s5">application</span><span class="s2"> 
+        </span><span class="s1">android:allowBackup=</span><span class="s3">&quot;true&quot;</span><span class="s2"> 
+        </span><span class="s1">android:icon=</span><span class="s3">&quot;@mipmap/ic_launcher&quot;</span><span class="s2"> 
+        </span><span class="s1">android:label=</span><span class="s3">&quot;@string/app_name&quot;</span><span class="s2"> 
+        </span><span class="s1">android:roundIcon=</span><span class="s3">&quot;@mipmap/ic_launcher_round&quot;</span><span class="s2"> 
+        </span><span class="s1">android:supportsRtl=</span><span class="s3">&quot;true&quot;</span><span class="s2"> 
+        </span><span class="s1">android:theme=</span><span class="s3">&quot;@style/myTheme&quot;</span><span class="s2">&gt;</span><span class="s4"> 
+        </span><span class="s2">&lt;</span><span class="s5">activity </span><span class="s1">android:name=</span><span class="s3">&quot;.TestActivity&quot;</span><span class="s2">&gt;</span><span class="s4"> 
+            </span><span class="s2">&lt;</span><span class="s5">intent-filter</span><span class="s2">&gt;</span><span class="s4"> 
+                </span><span class="s2">&lt;</span><span class="s5">action </span><span class="s1">android:name=</span><span class="s3">&quot;android.intent.action.MAIN&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+ 
+                </span><span class="s2">&lt;</span><span class="s5">category </span><span class="s1">android:name=</span><span class="s3">&quot;android.intent.category.LAUNCHER&quot;</span><span class="s2">/&gt;</span><span class="s4"> 
+            </span><span class="s2">&lt;/</span><span class="s5">intent-filter</span><span class="s2">&gt;</span><span class="s4"> 
+        </span><span class="s2">&lt;/</span><span class="s5">activity</span><span class="s2">&gt;</span><span class="s4"> 
+        </span><span class="s2">&lt;</span><span class="s5">activity </span><span class="s1">android:name=</span><span class="s3">&quot;.Signin&quot;</span><span class="s2">&gt;</span><span class="s4"> 
+        </span><span class="s2">&lt;/</span><span class="s5">activity</span><span class="s2">&gt;</span><span class="s4"> 
+    </span><span class="s2">&lt;/</span><span class="s5">application</span><span class="s2">&gt;</span><span class="s4"> 
+ 
+</span><span class="s2">&lt;/</span><span class="s5">manifest</span><span class="s2">&gt;</span></pre>
+</body>
+</html>

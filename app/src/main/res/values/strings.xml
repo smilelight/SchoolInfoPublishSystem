@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">校园信息发布系统</string>
+    <string name="find">发现</string>
+    <string name="mine">我的</string>
+    <string name="manage">管理</string>
+    <string name="edit">编辑</string>
+    <string name="account">账号：</string>
+    <string name="password">密码：</string>
+    <string name="signin">注册</string>
+    <string name="login">登录</string>
+    <string name="rempas">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="detail">详情</string>
+    <string name="name">姓名:</string>
+    <string name="title">标题:</string>
+    <string name="content">内容:</string>
+    <string name="publish">发布:</string>
+    <string name="date">日期:</string>
+    <string name="author">作者:</string>
+    <string name="delite">删除</string>
+    <string name="save">保存</string>
+</resources>
